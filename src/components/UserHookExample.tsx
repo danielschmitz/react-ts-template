@@ -5,12 +5,11 @@ type User = {
     email: string
 }
 
-
 const UserHookExample: React.FC = () => {
-    const [user, setUser] = useState<User|null>(null)
+    const [user, setUser] = useState<User | null>(null)
 
     function handleButtonClick() {
-        setUser({name:'joe',email:'joe@gmail.com'})
+        setUser({ name: 'joe', email: 'joe@gmail.com' })
     }
 
     return (<div>
