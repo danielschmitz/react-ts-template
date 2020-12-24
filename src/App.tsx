@@ -8,6 +8,6 @@ const App: React.FC = () => (
     <HelloWorld name="Daniel" />
     <UserHookExample />
   </div>
-)
+);
 
 export default App;
